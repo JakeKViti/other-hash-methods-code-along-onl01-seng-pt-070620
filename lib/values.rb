@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
 groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
 
-return groceries.values
+return groceries.keys
 #  => ["Banana", "Broccoli", "Cookie"]
 
 end
