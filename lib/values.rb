@@ -9,5 +9,10 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
+ 
+groceries.values
+#  => ["Banana", "Broccoli", "Cookie"]
+groceries.values.flatten
+groceries.values.flatten.min
 end
