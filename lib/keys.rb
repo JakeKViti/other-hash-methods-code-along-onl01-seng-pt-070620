@@ -11,5 +11,4 @@ require 'pry'
 def get_the_keys(groceries)
 groceries.keys
 #  => [:fruit, :vegetable, :dessert]
-groceries.values.flatten
 end
