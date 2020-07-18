@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
 groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
 
-return groceries.values.flatten
+groceries.values.flatten.min
 #  => ["Banana", "Broccoli", "Cookie"]
 
 end
