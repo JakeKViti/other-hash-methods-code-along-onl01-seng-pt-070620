@@ -13,6 +13,6 @@ groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
 
 groceries.values
 #  => ["Banana", "Broccoli", "Cookie"]
-groceries.values.flatten
+
 
 end
